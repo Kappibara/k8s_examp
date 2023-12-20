@@ -1,0 +1,37 @@
+apiVersion: v1
+kind: Service
+metadata:
+  annotations:
+    cloud.google.com/neg: '{"ingress":true}'
+    kubectl.kubernetes.io/last-applied-configuration: |
+      {"apiVersion":"v1","kind":"Service","metadata":{"annotations":{},"name":"dash-load-balancer-service","namespace":"default"},"spec":{"ports":[{"nodePort":30007,"port":80,"targetPort":8050}],"selector":{"app":"dash-test"},"type":"LoadBalancer"}}
+  creationTimestamp: "2023-12-06T09:16:40Z"
+  finalizers:
+  - service.kubernetes.io/load-balancer-cleanup
+  name: dash-load-balancer-service
+  namespace: default
+  resourceVersion: "24727"
+  uid: 79bdbab0-6d0e-49b7-b96a-4af899d00cbb
+spec:
+  allocateLoadBalancerNodePorts: true
+  clusterIP: 10.24.11.218
+  clusterIPs:
+  - 10.24.11.218
+  externalTrafficPolicy: Cluster
+  internalTrafficPolicy: Cluster
+  ipFamilies:
+  - IPv4
+  ipFamilyPolicy: SingleStack
+  ports:
+  - nodePort: 30007
+    port: 80
+    protocol: TCP
+    targetPort: 8050
+  selector:
+    app: dash-test
+  sessionAffinity: None
+  type: LoadBalancer
+status:
+  loadBalancer:
+    ingress:
+    - ip: 34.32.225.54

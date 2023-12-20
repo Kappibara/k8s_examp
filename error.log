@@ -1,0 +1,57 @@
+W: Skipping acquire of configured file 'multiverse/source/Sources' as repository 'http://archive.canonical.com/ubuntu focal InRelease' doesn't have the component 'multiverse' (component misspelt in sources.list?)
+W: Skipping acquire of configured file 'multiverse/binary-i386/Packages' as repository 'http://archive.canonical.com/ubuntu focal InRelease' doesn't have the component 'multiverse' (component misspelt in sources.list?)
+W: Skipping acquire of configured file 'multiverse/binary-amd64/Packages' as repository 'http://archive.canonical.com/ubuntu focal InRelease' doesn't have the component 'multiverse' (component misspelt in sources.list?)
+W: Skipping acquire of configured file 'multiverse/i18n/Translation-en_US' as repository 'http://archive.canonical.com/ubuntu focal InRelease' doesn't have the component 'multiverse' (component misspelt in sources.list?)
+W: Skipping acquire of configured file 'multiverse/i18n/Translation-uk' as repository 'http://archive.canonical.com/ubuntu focal InRelease' doesn't have the component 'multiverse' (component misspelt in sources.list?)
+W: Skipping acquire of configured file 'multiverse/i18n/Translation-en' as repository 'http://archive.canonical.com/ubuntu focal InRelease' doesn't have the component 'multiverse' (component misspelt in sources.list?)
+W: Skipping acquire of configured file 'multiverse/dep11/Components-amd64.yml' as repository 'http://archive.canonical.com/ubuntu focal InRelease' doesn't have the component 'multiverse' (component misspelt in sources.list?)
+W: Skipping acquire of configured file 'multiverse/dep11/icons-48x48.tar' as repository 'http://archive.canonical.com/ubuntu focal InRelease' doesn't have the component 'multiverse' (component misspelt in sources.list?)
+W: Skipping acquire of configured file 'multiverse/dep11/icons-64x64.tar' as repository 'http://archive.canonical.com/ubuntu focal InRelease' doesn't have the component 'multiverse' (component misspelt in sources.list?)
+W: Skipping acquire of configured file 'multiverse/dep11/icons-64x64@2.tar' as repository 'http://archive.canonical.com/ubuntu focal InRelease' doesn't have the component 'multiverse' (component misspelt in sources.list?)
+W: Skipping acquire of configured file 'multiverse/cnf/Commands-amd64' as repository 'http://archive.canonical.com/ubuntu focal InRelease' doesn't have the component 'multiverse' (component misspelt in sources.list?)
+W: Target Packages (main/binary-amd64/Packages) is configured multiple times in /etc/apt/sources.list.d/google-cloud-sdk.list:1 and /etc/apt/sources.list.d/google-cloud-sdk.list:2
+W: Target Packages (main/binary-i386/Packages) is configured multiple times in /etc/apt/sources.list.d/google-cloud-sdk.list:1 and /etc/apt/sources.list.d/google-cloud-sdk.list:2
+W: Target Packages (main/binary-all/Packages) is configured multiple times in /etc/apt/sources.list.d/google-cloud-sdk.list:1 and /etc/apt/sources.list.d/google-cloud-sdk.list:2
+W: Target Translations (main/i18n/Translation-en_US) is configured multiple times in /etc/apt/sources.list.d/google-cloud-sdk.list:1 and /etc/apt/sources.list.d/google-cloud-sdk.list:2
+W: Target Translations (main/i18n/Translation-en) is configured multiple times in /etc/apt/sources.list.d/google-cloud-sdk.list:1 and /etc/apt/sources.list.d/google-cloud-sdk.list:2
+W: Target Translations (main/i18n/Translation-uk) is configured multiple times in /etc/apt/sources.list.d/google-cloud-sdk.list:1 and /etc/apt/sources.list.d/google-cloud-sdk.list:2
+W: Target DEP-11 (main/dep11/Components-amd64.yml) is configured multiple times in /etc/apt/sources.list.d/google-cloud-sdk.list:1 and /etc/apt/sources.list.d/google-cloud-sdk.list:2
+W: Target DEP-11 (main/dep11/Components-all.yml) is configured multiple times in /etc/apt/sources.list.d/google-cloud-sdk.list:1 and /etc/apt/sources.list.d/google-cloud-sdk.list:2
+W: Target DEP-11-icons-small (main/dep11/icons-48x48.tar) is configured multiple times in /etc/apt/sources.list.d/google-cloud-sdk.list:1 and /etc/apt/sources.list.d/google-cloud-sdk.list:2
+W: Target DEP-11-icons (main/dep11/icons-64x64.tar) is configured multiple times in /etc/apt/sources.list.d/google-cloud-sdk.list:1 and /etc/apt/sources.list.d/google-cloud-sdk.list:2
+W: Target DEP-11-icons-hidpi (main/dep11/icons-64x64@2.tar) is configured multiple times in /etc/apt/sources.list.d/google-cloud-sdk.list:1 and /etc/apt/sources.list.d/google-cloud-sdk.list:2
+W: Target CNF (main/cnf/Commands-amd64) is configured multiple times in /etc/apt/sources.list.d/google-cloud-sdk.list:1 and /etc/apt/sources.list.d/google-cloud-sdk.list:2
+W: Target CNF (main/cnf/Commands-all) is configured multiple times in /etc/apt/sources.list.d/google-cloud-sdk.list:1 and /etc/apt/sources.list.d/google-cloud-sdk.list:2
+W: Target Packages (main/binary-amd64/Packages) is configured multiple times in /etc/apt/sources.list.d/google-cloud-sdk.list:1 and /etc/apt/sources.list.d/google-cloud-sdk.list:2
+W: Target Packages (main/binary-i386/Packages) is configured multiple times in /etc/apt/sources.list.d/google-cloud-sdk.list:1 and /etc/apt/sources.list.d/google-cloud-sdk.list:2
+W: Target Packages (main/binary-all/Packages) is configured multiple times in /etc/apt/sources.list.d/google-cloud-sdk.list:1 and /etc/apt/sources.list.d/google-cloud-sdk.list:2
+W: Target Translations (main/i18n/Translation-en_US) is configured multiple times in /etc/apt/sources.list.d/google-cloud-sdk.list:1 and /etc/apt/sources.list.d/google-cloud-sdk.list:2
+W: Target Translations (main/i18n/Translation-en) is configured multiple times in /etc/apt/sources.list.d/google-cloud-sdk.list:1 and /etc/apt/sources.list.d/google-cloud-sdk.list:2
+W: Target Translations (main/i18n/Translation-uk) is configured multiple times in /etc/apt/sources.list.d/google-cloud-sdk.list:1 and /etc/apt/sources.list.d/google-cloud-sdk.list:2
+W: Target DEP-11 (main/dep11/Components-amd64.yml) is configured multiple times in /etc/apt/sources.list.d/google-cloud-sdk.list:1 and /etc/apt/sources.list.d/google-cloud-sdk.list:2
+W: Target DEP-11 (main/dep11/Components-all.yml) is configured multiple times in /etc/apt/sources.list.d/google-cloud-sdk.list:1 and /etc/apt/sources.list.d/google-cloud-sdk.list:2
+W: Target DEP-11-icons-small (main/dep11/icons-48x48.tar) is configured multiple times in /etc/apt/sources.list.d/google-cloud-sdk.list:1 and /etc/apt/sources.list.d/google-cloud-sdk.list:2
+W: Target DEP-11-icons (main/dep11/icons-64x64.tar) is configured multiple times in /etc/apt/sources.list.d/google-cloud-sdk.list:1 and /etc/apt/sources.list.d/google-cloud-sdk.list:2
+W: Target DEP-11-icons-hidpi (main/dep11/icons-64x64@2.tar) is configured multiple times in /etc/apt/sources.list.d/google-cloud-sdk.list:1 and /etc/apt/sources.list.d/google-cloud-sdk.list:2
+W: Target CNF (main/cnf/Commands-amd64) is configured multiple times in /etc/apt/sources.list.d/google-cloud-sdk.list:1 and /etc/apt/sources.list.d/google-cloud-sdk.list:2
+W: Target CNF (main/cnf/Commands-all) is configured multiple times in /etc/apt/sources.list.d/google-cloud-sdk.list:1 and /etc/apt/sources.list.d/google-cloud-sdk.list:2
+snap "helm" is already installed, see 'snap help refresh'
+fatal: destination path '/home/user/.kubectx' already exists and is not an empty directory.
+Package zsh was not found in the pkg-config search path.
+Perhaps you should add the directory containing `zsh.pc'
+to the PKG_CONFIG_PATH environment variable
+No package 'zsh' found
+snap "k9s" is already installed, see 'snap help refresh'
+Error: Oh My Zsh can't be loaded from: k8s-tools-insta. You need to run zsh instead.
+Here's the process tree:
+
+   PPID     PID COMMAND
+      1    2316 /lib/systemd/systemd --user
+   2316    4164  \_ /usr/libexec/gnome-terminal-server
+   4164    8188      \_ zsh
+   8188   11582          \_ /bin/bash ./k8s-tools-install.sh
+
+/dev/fd/63: line 2: compdef: command not found
+/dev/fd/63: line 18: compdef: command not found
+/dev/fd/63: line 2: compdef: command not found
+/dev/fd/63: line 18: compdef: command not found

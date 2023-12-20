@@ -1,0 +1,47 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: short-api-deployment
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      components: backend
+  template:
+    metadata:
+      labels:
+        components: backend
+    spec:
+      containers:
+        - name: short-api
+          image: antonlarichev/short-api
+          ports:
+            - containerPort: 3000
+          resources:
+            limits:
+              memory: "500Mi"
+              cpu: "200m"
+          env:
+            - name: DATABASE_URL
+              valueFrom:
+                secretKeyRef:
+                  key: DATABASE_URL
+                  name: short-api-secret
+          volumeMounts:
+            - mountPath: /etc/test
+              name: test
+              readOnly: true
+          livenessProbe:
+            exec:
+              command:
+                - curl
+                - --fail
+                - http://localhost:3000/api
+            initialDelaySeconds: 30
+            periodSeconds: 5
+            failureThreshold: 1
+      volumes:
+        - name: test
+          configMap:
+            name: demo-config
+

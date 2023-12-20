@@ -1,0 +1,25 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: dash-test-deployment-2
+  namespace: default
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      app: dash-test-2
+  template:
+    metadata:
+      labels:
+        app: dash-test-2
+    spec:
+      initContainers:
+        - name: install-curl
+          image: debian:latest  # Используйте базовый образ, содержащий apt-get
+          command: [ "sh", "-c", "apt-get update && apt-get install -y curl" ]
+      containers:
+      - image: sotishvilialexander066/dash-test-redis:v1
+        name: dash-test-2
+        ports:
+        - containerPort: 8050
+          protocol: TCP

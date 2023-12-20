@@ -1,0 +1,50 @@
+Hit:1 http://archive.canonical.com/ubuntu focal InRelease
+Hit:2 http://ppa.launchpad.net/cybermax-dexter/sdl2-backport/ubuntu hirsute InRelease
+Get:3 https://download.docker.com/linux/ubuntu hirsute InRelease [48,9 kB]
+Hit:4 https://packages.cloud.google.com/apt cloud-sdk InRelease
+Hit:5 http://archive.ubuntu.com/ubuntu focal InRelease
+Hit:6 https://dl.winehq.org/wine-builds/ubuntu disco InRelease
+Hit:7 https://dl.winehq.org/wine-builds/ubuntu hirsute InRelease
+Hit:8 http://archive.ubuntu.com/ubuntu focal-updates InRelease
+Hit:9 https://dl.winehq.org/wine-builds/ubuntu focal InRelease
+Hit:10 http://archive.ubuntu.com/ubuntu focal-security InRelease
+Hit:11 http://archive.ubuntu.com/ubuntu focal-backports InRelease
+Fetched 48,9 kB in 1s (33,9 kB/s)
+Reading package lists...
+Reading package lists...
+Building dependency tree...
+Reading state information...
+zsh is already the newest version (5.8-6).
+The following packages were automatically installed and are no longer required:
+  dctrl-tools dkms libgsoap-2.8.91 liblzf1 libsdl1.2debian virtualbox-dkms
+Use 'sudo apt autoremove' to remove them.
+0 upgraded, 0 newly installed, 0 to remove and 110 not upgraded.
+The $ZSH folder already exists (/home/user/.oh-my-zsh).
+
+You ran the installer with the $ZSH setting or the $ZSH variable is
+exported. You have 3 options:
+
+1. Unset the ZSH variable when calling the installer:
+   `ZSH= sh install.sh`
+2. Install Oh My Zsh to a directory that doesn't exist yet:
+   `ZSH=path/to/new/ohmyzsh/folder sh install.sh`
+3. (Caution) If the folder doesn't contain important information,
+   you can just remove it with `rm -r /home/user/.oh-my-zsh`
+
+Reading package lists...
+Building dependency tree...
+Reading state information...
+kubectl is already the newest version (1.28.2-00).
+The following packages were automatically installed and are no longer required:
+  dctrl-tools dkms libgsoap-2.8.91 liblzf1 libsdl1.2debian virtualbox-dkms
+Use 'sudo apt autoremove' to remove them.
+0 upgraded, 0 newly installed, 0 to remove and 110 not upgraded.
+Reading package lists...
+Building dependency tree...
+Reading state information...
+qemu-system is already the newest version (1:4.2-3ubuntu6.27).
+The following packages were automatically installed and are no longer required:
+  dctrl-tools dkms libgsoap-2.8.91 liblzf1 libsdl1.2debian virtualbox-dkms
+Use 'sudo apt autoremove' to remove them.
+0 upgraded, 0 newly installed, 0 to remove and 110 not upgraded.
+Установка завершена!

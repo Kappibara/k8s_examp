@@ -1,0 +1,7 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: demo-cofig
+data:
+  key: {{ .Release.Name | quote }}
+  name: {{ upper .Values.app.name | quote }}
